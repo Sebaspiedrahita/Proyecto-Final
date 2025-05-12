@@ -1,0 +1,86 @@
+/* ------------------------------------- */
+/* Reinicio de los estilos para borrar modificaciones del navegador */
+/* ------------------------------------- */
+
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    background-color: yellow;
+}
+
+
+/* ------------------------------------- */
+/* Estilos para el HOME */
+/* ------------------------------------- */
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48pt;
+    text-align: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24pt;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    padding: 1% 3%;
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+img{
+    width: 500px;
+}
+
+
+/* ------------------------------------- */
+/* Estilos para las secciones */
+/* ------------------------------------- */
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+header{
+    background-color: yellow;
+    padding: 5%;
+}
+
+nav{
+    background-color: blue;
+    padding: 5%;
+
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 600px; /* Esta propiedad se puede cambiar según el alto del contenido */ 
+    background-color: yellow;
+    padding: 5%;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+    padding: 1%;
+    text-align: center;
+}
